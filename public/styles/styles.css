@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #eeeeee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Yusei Magic";
+}
+
+.card {
+  display: flex;
+  gap: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  background: white;
+  box-shadow: 5px 5px 10px 0.5px gray;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100%;
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 15rem;
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+    color: gray;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .links {
+    display: flex;
+    gap: 1rem;
+    a {
+      height: 2rem;
+      width: 2rem;
+    }
+  }
+}

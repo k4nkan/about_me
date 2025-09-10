@@ -1,0 +1,57 @@
+/* 全ての要素に box-sizing: border-box を適用 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body要素のデフォルトのマージンを削除 */
+body {
+  margin: 0;
+}
+
+/* よく使われる要素のデフォルトのマージン・パディングを削除 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0; /* リストのパディングも削除 */
+}
+
+/* リストのデフォルトのスタイル（箇条書きの点など）を削除 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 画像の下に発生する余白（baselineの影響）を削除 */
+img {
+  display: block;
+  max-width: 100%; /* 画像が親要素からはみ出さないように */
+  height: auto; /* アスペクト比を維持 */
+}
+
+/* フォーム要素のデフォルトスタイルをリセット */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit; /* フォントを継承 */
+  font-size: inherit; /* フォントサイズを継承 */
+}
+
+/* リンクのデフォルトのアンダーラインを削除（必要であれば） */
+a {
+  text-decoration: none;
+  color: inherit; /* 親要素から色を継承 */
+}
