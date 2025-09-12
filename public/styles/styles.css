@@ -13,11 +13,20 @@ body {
 
 .card {
   display: flex;
+  flex-direction: row;
   gap: 2rem;
   border-radius: 2rem;
   padding: 2rem;
   background: white;
   box-shadow: 5px 5px 10px 0.5px gray;
+}
+
+@media (max-width: 750px) {
+  .card {
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
 }
 
 .img-container {
