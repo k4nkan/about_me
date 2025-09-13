@@ -67,3 +67,11 @@ body {
     }
   }
 }
+
+footer {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+}
