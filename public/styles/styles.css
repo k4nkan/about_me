@@ -8,6 +8,9 @@ body {
   justify-content: center;
   align-items: center;
 
+  overflow: hidden;
+  overscroll-behavior: none;
+
   font-family: "Yusei Magic";
 }
 
@@ -66,4 +69,12 @@ body {
       width: 2rem;
     }
   }
+}
+
+footer {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
 }
