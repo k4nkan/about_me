@@ -2,7 +2,6 @@ html,
 body {
   height: 100dvh;
   width: 100vw;
-  background: #eeeeee;
 
   display: flex;
   justify-content: center;
@@ -12,6 +11,7 @@ body {
   overscroll-behavior: none;
 
   font-family: "Yusei Magic";
+  z-index: 0;
 }
 
 .card {
@@ -77,4 +77,11 @@ footer {
   padding: 1rem;
   position: fixed;
   bottom: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
