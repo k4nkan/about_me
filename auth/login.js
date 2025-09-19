@@ -6,7 +6,7 @@ import {
 
 const firebaseConfig = {
   apiKey: "AIzaSyDTmEKSbL3pZIegi8YcVa7xeAcSFuWUt9M",
-  authDomain: "https://kanta.it.com/",
+  authDomain: "kanta.it.com",
   projectId: "fir-test-680b4",
 };
 const app = initializeApp(firebaseConfig);
