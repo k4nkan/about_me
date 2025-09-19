@@ -14,7 +14,7 @@ const auth = getAuth(app);
 
 document.getElementById("loginForm").addEventListener("submit", async (e) => {
   e.preventDefault();
-  const email = "sample@sample.com";
+  const email = "hogehoge@hoge.ho.ge";
   const password = document.getElementById("password").value;
 
   try {
