@@ -21,7 +21,7 @@ body {
   flex-direction: row;
   gap: 2rem;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.5rem;
   background: #ffffff;
   box-shadow: 5px 5px 10px 0.5px #d1d1d1;
   transition: 0.2s ease-in-out;
@@ -34,7 +34,6 @@ body {
 @media (max-width: 750px) {
   .card {
     flex-direction: column;
-    padding: 1.5rem;
     gap: 1.5rem;
   }
 }
@@ -93,7 +92,7 @@ body {
 
 footer {
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1rem;
   position: fixed;
   bottom: 0;
