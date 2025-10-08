@@ -20,10 +20,15 @@ body {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   padding: 2rem;
   background: #ffffff;
   box-shadow: 5px 5px 10px 0.5px #d1d1d1;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 750px) {
@@ -51,7 +56,7 @@ body {
 .text-container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   width: 15rem;
   h1 {
     font-size: 1.5rem;
@@ -69,6 +74,19 @@ body {
     a {
       height: 2rem;
       width: 2rem;
+      transition: 0.2s ease-in-out;
+    }
+    a:hover {
+      transform: scale(1.2);
+    }
+  }
+  .card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      font-size: 1rem;
+      color: #757575;
     }
   }
 }
