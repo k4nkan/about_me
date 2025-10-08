@@ -75,15 +75,18 @@ body {
 
 footer {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
   position: fixed;
   bottom: 0;
-}
 
-canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  a {
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    transform-origin: center center;
+  }
+
+  a:hover {
+    transform: scale(1.2);
+  }
 }
