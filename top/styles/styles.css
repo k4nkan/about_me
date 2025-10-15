@@ -24,11 +24,6 @@ body {
   padding: 1.5rem;
   background: #ffffff;
   box-shadow: 5px 5px 10px 0.5px #d1d1d1;
-  transition: 0.2s ease-in-out;
-}
-
-.card:hover {
-  transform: scale(1.05);
 }
 
 @media (max-width: 750px) {
@@ -86,6 +81,13 @@ body {
     p {
       font-size: 1rem;
       color: #757575;
+    }
+    .more-button {
+      transition: 0.2s ease-in-out;
+      padding: 0.5rem;
+    }
+    .more-button:hover {
+      transform: scale(1.1);
     }
   }
 }
