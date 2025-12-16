@@ -82,13 +82,6 @@ body {
       font-size: 1rem;
       color: #757575;
     }
-    .more-button {
-      transition: 0.2s ease-in-out;
-      padding: 0.5rem;
-    }
-    .more-button:hover {
-      transform: scale(1.1);
-    }
   }
 }
 
